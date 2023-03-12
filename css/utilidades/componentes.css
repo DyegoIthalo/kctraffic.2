@@ -60,8 +60,7 @@
   transition: transform 0.2s;
 }
 
-.botao.seta:hover::after,
-.botao.whatssap:hover::before {
+.botao.seta:hover::after {
   transform: translateX(4px);
 }
 

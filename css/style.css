@@ -10,3 +10,6 @@
 
 /* Home */
 @import "./home/introducao.css";
+
+/* Serviços */
+@import "./servicos/servicos.css";
