@@ -15,7 +15,7 @@
 
 .servicos-lista ul {
   display: flex;
-  align-self: center;
+  align-items: center;
   gap: 40px;
   padding: 0 20px;
   max-width: 1300px;
