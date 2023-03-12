@@ -18,11 +18,8 @@
   align-items: center;
   gap: 40px;
   padding: 0 20px;
-  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
-  flex-wrap: nowrap;
-  overflow-x: auto;
 }
 
 .servicos-lista li {
@@ -42,13 +39,42 @@ p {
   margin-bottom: 20px;
 }
 
-@media (max-width: 1250px) {
-  .botao {
-    font-size: 16px;
-    padding: 10px 20px;
-  }
+/* Responsividade */
+
+@media only screen and (max-width: 1250px) {
   .servicos-lista ul {
-    flex-wrap: nowrap;
+    max-width: 100%;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .servicos-lista ul {
     overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .servicos-lista ul {
+    flex-wrap: wrap;
+  }
+
+  .servicos-lista li {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .servicos-lista img {
+    max-width: 100%;
+  }
+
+  .servicos-lista p {
+    margin-bottom: 40px;
+  }
+
+  .servicos-lista .botao {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
