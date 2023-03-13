@@ -13,3 +13,6 @@
 
 /* Serviços */
 @import "./servicos/servicos.css";
+
+/* Especialista */
+@import "./especialista/especialista.css";
