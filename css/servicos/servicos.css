@@ -7,31 +7,59 @@
   margin-bottom: 40px;
 }
 
-.servicos-lista {
+.servicos .servicos-container {
+  display: flex;
+  gap: 20px;
+  padding: 0 40px 20px 40px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+
+.servicos-box {
+  background: var(--cor-p2);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicos .servicos-container .servicos-box {
+  flex: 1;
+  min-width: 280px;
+}
+
+.servicos .servicos-container .servicos-box a {
+  display: block;
+}
+
+.servicos .servicos-container .servicos-box img {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.servicos .servicos-container .servicos-box h3 {
+  margin-bottom: 8px;
   display: flex;
   align-items: center;
-  gap: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
-.servicos-lista-item {
-  justify-content: center;
+.servicos .servicos-container .servicos-box p {
+  max-width: 400px;
+  margin: 0 auto 14px auto;
   text-align: center;
-  border-radius: 24px;
-  background-color: #f077a9;
 }
 
-.servicos-lista-item h3 {
-  margin-bottom: 10px;
+.servicos .servicos-container .servicos-box .botao {
+  margin-bottom: 16px;
 }
 
-.servicos-lista-item p {
-  margin-bottom: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.servicos-lista-item .botao {
-  margin-bottom: 20px;
+@media (max-width: 800px) {
+  .servicos {
+    padding-bottom: 60px;
+  }
+  .servicos .servicos-container {
+    gap: 20px;
+  }
 }
