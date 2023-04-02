@@ -12,7 +12,10 @@
 @import "./home/introducao.css";
 
 /* Serviços */
-@import "./servicos/servicos.css";
+@import "./home/servicos.css";
 
-/* Especialista */
-@import "./consultoria/consultoria.css";
+/* Consultoria */
+@import "./home/consultoria.css";
+
+/* Perguntas Frequentes*/
+@import "./home/perguntas.css";
