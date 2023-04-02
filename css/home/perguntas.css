@@ -64,6 +64,11 @@
   max-width: 150ch;
 }
 
+#pergunta5 li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 800px) {
   .perguntas {
     padding-top: 60px;
