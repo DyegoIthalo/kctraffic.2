@@ -35,8 +35,8 @@
 }
 
 .servicos .servicos-container .servicos-box img {
+  margin-top: 24px;
   margin-bottom: 16px;
-  margin-top: 16px;
 }
 
 .servicos .servicos-container .servicos-box h3 {
@@ -52,7 +52,7 @@
 }
 
 .servicos .servicos-container .servicos-box .botao {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 @media (max-width: 800px) {

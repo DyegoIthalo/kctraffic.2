@@ -19,3 +19,6 @@
 
 /* Perguntas Frequentes*/
 @import "./home/perguntas.css";
+
+/* Footer */
+@import "./global/footer.css";
